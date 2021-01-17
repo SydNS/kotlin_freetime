@@ -9,13 +9,13 @@ class MagicDates {
 
 
     fun magicIt(): String {
-        print("Finding out if a date is a magic\nEnter the date  ")
-        print("\nEnter the day  ")
+        print("Finding out if a date is a magic Enter the date  ")
+        print("\nEnter the day : ")
         val dayOfWk = Integer.valueOf(readLine())
-        print("\nEnter the month  ")
+        print("Enter the month : ")
         val monthOfYear = Integer.valueOf(readLine())
 
-        print("\nEnter the year  ")
+        print("Enter the year : ")
         val year = Integer.valueOf(readLine())
 
         if (dayOfWk*monthOfYear==year){
@@ -28,5 +28,7 @@ class MagicDates {
 }
 
 fun main() {
-    print(MagicDates().magicIt())
+//    print(MagicDates().magicIt())
+    val loopin=Loopin()
+    loopin.odds()
 }
