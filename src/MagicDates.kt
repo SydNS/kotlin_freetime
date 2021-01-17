@@ -29,6 +29,8 @@ class MagicDates {
 
 fun main() {
 //    print(MagicDates().magicIt())
-    val loopin=Loopin()
-    loopin.odds()
+//    val loopin=Loopin()
+//    loopin.squares()
+    val odds=Odds()
+    odds.odds()
 }
