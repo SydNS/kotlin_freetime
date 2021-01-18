@@ -31,6 +31,21 @@ fun main() {
 //    print(MagicDates().magicIt())
 //    val loopin=Loopin()
 //    loopin.squares()
-    val odds=Odds()
-    odds.odds()
+//    val odds=Odds()
+//    odds.odds()
+//    val evens=Evens()
+//    evens.evens()
+//    val pyramid=Pyramid()
+//    pyramid.pyramid()
+//    val doubled = List(3) { it * 2 }  // or MutableList if you want to change its content later
+//    println(doubled)
+//    val numbers = listOf("one", "two", "three", "four")
+//    val longerThan3 = numbers.filter { it.length>4 }
+//    println(longerThan3)
+    val numbers = listOf("one", "two", "three", "four")
+
+    val plusList = numbers + "five"
+    val minusList = numbers - listOf("three", "four")
+    println(plusList)
+    println(minusList)
 }
